@@ -3,8 +3,8 @@
   // >>> Set this to your real inbox. The demo form opens the visitor's mail app (no backend needed).
   var CONTACT_EMAIL = 'hello@yaan.example';
 
-  // >>> Set this to your deployed app's login page (e.g. https://app.yourdomain.com/login).
-  var LOGIN_URL = 'http://localhost:5173/login';
+  // >>> Login currently shows a "coming soon" page. When the app is live, set this to its login URL (e.g. https://app.yourdomain.com/login).
+  var LOGIN_URL = 'coming-soon.html';
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
