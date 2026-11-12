@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-label="A Yaan shuttle picking up employees and heading to the office along a planned route">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ccfbf1"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient>
+    <linearGradient id="bus" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+  </defs>
+  <rect width="1200" height="440" fill="url(#sky)"/>
+  <circle cx="1020" cy="90" r="46" fill="#fff" opacity=".75"/>
+  <g fill="#fff" opacity=".8"><ellipse cx="220" cy="80" rx="60" ry="16"/><ellipse cx="260" cy="70" rx="40" ry="14"/><ellipse cx="640" cy="52" rx="70" ry="15"/></g>
+  <!-- far skyline -->
+  <g fill="#99e6da"><rect x="560" y="170" width="70" height="170"/><rect x="640" y="130" width="60" height="210"/><rect x="710" y="190" width="80" height="150"/><rect x="800" y="110" width="70" height="230"/><rect x="880" y="160" width="90" height="180"/></g>
+  <!-- office -->
+  <g>
+    <rect x="990" y="120" width="150" height="220" rx="8" fill="#0f766e"/>
+    <g fill="#99f6e4" opacity=".9">
+      <rect x="1006" y="140" width="26" height="22" rx="3"/><rect x="1046" y="140" width="26" height="22" rx="3"/><rect x="1086" y="140" width="26" height="22" rx="3"/>
+      <rect x="1006" y="178" width="26" height="22" rx="3"/><rect x="1046" y="178" width="26" height="22" rx="3"/><rect x="1086" y="178" width="26" height="22" rx="3"/>
+      <rect x="1006" y="216" width="26" height="22" rx="3"/><rect x="1046" y="216" width="26" height="22" rx="3"/><rect x="1086" y="216" width="26" height="22" rx="3"/>
+    </g>
+    <rect x="1050" y="280" width="30" height="60" rx="4" fill="#134e4a"/>
+  </g>
+  <!-- houses -->
+  <g>
+    <rect x="70" y="250" width="110" height="90" fill="#fff"/><path d="M60 252l65-52 65 52z" fill="#14b8a6"/><rect x="112" y="290" width="26" height="50" fill="#0f766e"/>
+    <rect x="260" y="270" width="90" height="70" fill="#fff"/><path d="M252 272l53-42 53 42z" fill="#0f766e"/><rect x="292" y="300" width="22" height="40" fill="#134e4a"/>
+  </g>
+  <!-- road -->
+  <rect y="340" width="1200" height="100" fill="#10262c"/>
+  <g stroke="#fff" stroke-width="5" stroke-dasharray="46 34" opacity=".55"><path d="M0 392H1200"/></g>
+  <!-- route -->
+  <path d="M125 330 C 250 250, 380 250, 480 300 S 760 330, 1060 300" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round" opacity=".8"/>
+  <!-- pins -->
+  <g>
+    <g transform="translate(125 198)"><path d="M0 0c-16 0-26 12-26 25 0 18 26 38 26 38s26-20 26-38C26 12 16 0 0 0z" fill="#fff" stroke="#0f766e" stroke-width="4"/><circle cx="0" cy="24" r="9" fill="#14b8a6"/></g>
+    <g transform="translate(305 178)"><path d="M0 0c-16 0-26 12-26 25 0 18 26 38 26 38s26-20 26-38C26 12 16 0 0 0z" fill="#fff" stroke="#0f766e" stroke-width="4"/><circle cx="0" cy="24" r="9" fill="#14b8a6"/></g>
+    <g transform="translate(1065 70)"><path d="M0 0c-16 0-26 12-26 25 0 18 26 38 26 38s26-20 26-38C26 12 16 0 0 0z" fill="#0f766e" stroke="#fff" stroke-width="4"/><path d="M-9 25l6 6 12-13" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+  <!-- bus -->
+  <g transform="translate(470 262)">
+    <rect width="300" height="112" rx="22" fill="url(#bus)"/>
+    <rect x="16" y="18" width="52" height="38" rx="8" fill="#ccfbf1"/><rect x="78" y="18" width="52" height="38" rx="8" fill="#ccfbf1"/><rect x="140" y="18" width="52" height="38" rx="8" fill="#ccfbf1"/>
+    <rect x="206" y="18" width="78" height="52" rx="10" fill="#e7fffb"/>
+    <circle cx="42" cy="34" r="9" fill="#0f766e"/><circle cx="104" cy="34" r="9" fill="#134e4a"/><circle cx="166" cy="34" r="9" fill="#0f766e"/>
+    <rect x="0" y="74" width="300" height="8" fill="#134e4a" opacity=".35"/>
+    <text x="22" y="100" font-family="Plus Jakarta Sans,Arial,sans-serif" font-weight="800" font-size="19" fill="#fff" letter-spacing="1">YAAN</text>
+    <circle cx="70" cy="112" r="22" fill="#0b1c20"/><circle cx="70" cy="112" r="9" fill="#cfd8dc"/>
+    <circle cx="232" cy="112" r="22" fill="#0b1c20"/><circle cx="232" cy="112" r="9" fill="#cfd8dc"/>
+  </g>
+  <!-- OTP bubble -->
+  <g transform="translate(600 168)"><rect width="150" height="46" rx="14" fill="#fff" stroke="#14b8a6" stroke-width="2"/><path d="M40 46l10 14 8-14z" fill="#fff" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round"/><rect x="38" y="43" width="22" height="5" fill="#fff"/><text x="75" y="30" text-anchor="middle" font-family="Plus Jakarta Sans,Arial,sans-serif" font-weight="800" font-size="19" fill="#0f766e" letter-spacing="3">OTP ✓</text></g>
+  <!-- people -->
+  <g fill="#134e4a"><circle cx="190" cy="318" r="10"/><rect x="182" y="328" width="16" height="22" rx="7"/><circle cx="215" cy="320" r="9" fill="#14b8a6"/><rect x="208" y="329" width="14" height="21" rx="6" fill="#14b8a6"/></g>
+</svg>
