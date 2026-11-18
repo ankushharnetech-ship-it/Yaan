@@ -1,0 +1,26 @@
+# secrets & local config — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# dependencies / build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+web-build/
+.expo/
+.kotlin/
+expo-env.d.ts
+
+# tool folders
+.claude/
